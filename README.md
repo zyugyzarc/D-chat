@@ -11,3 +11,5 @@ Usage:
 * to join a group that already exists, the create flag can be ommited : `python3 rtc.py [Username]`
 * you can also use the `/invite` command to allow another user to join the group.
 * you can leave using `/leave`
+
+the source code for the signaling server can be found [here](https://replit.com/@Zyugyzarc/rtc#main.py)
