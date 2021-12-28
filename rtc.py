@@ -390,6 +390,8 @@ class Node:
             )
             task( c.connect() )
             print(f"{term.bold} waiting for connection... {term.normal}")
+            
+            return None, None
 
         elif command == '/leave':
             for i in self.channels:
